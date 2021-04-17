@@ -116,68 +116,31 @@ TIMEOUT_TIMES = {
 DEFAULT_SOURCES = {
     'HDMI1': 'HDMI1',
     'HDMI2': 'HDMI2',
-    'PC': 'PC',
-    'VIDEO': 'VIDEO',
-    'USB': 'USB',
-    'LAN': 'LAN',
-    'WFD': 'WiFi Direct'
+    'HDMI3': 'HDMI3',
+    'LAN': 'LAN'
 }
 
 SOURCE_LIST = {
-    '30': 'HDMI1',
-    '10': 'PC',
-    '40': 'VIDEO',
-    '52': 'USB',
-    '53': 'LAN',
-    '56': 'WDF',
-    'A0': 'HDMI2',
-    '41': 'VIDEO'
+    '32': 'HDMI1',
+    '33': 'HDMI2',
+    '36': 'HDMI3',
+    '52': 'LAN'
 }
 
 INV_SOURCES = {v: k for k, v in DEFAULT_SOURCES.items()}
 
 CMODE_LIST = {
-    '00': 'Auto',
     '15': 'Cinema',
-    '07': 'Natural',
     '0C': 'Bright Cinema',
     '06': 'Dynamic',
-    '17': '3D Cinema',
-    '18': '3D Dynamic',
-    '19': '3D THX',
-    '20': 'B&W Cinema',
-    '21': 'Adobe RGB',
-    '22': 'Digital Cinema',
-    '13': 'THX',
-    '0D': 'Game',
-    '16': 'Stage',
-    'C1': 'AutoColor',
-    '0B': 'x.v. color',
-    '05': 'Theatre',
-    '09': 'Theatre Black 1/HD',
-    '0A': 'Theatre Black 2/Silver Screen'
+    '0D': 'Game'
 }
 
 CMODE_LIST_SET = {
     'cinema': 'CMODE_CINEMA', 'Cinema': 'CMODE_CINEMA',
-    'natural': 'CMODE_NATURAL', 'Natural': 'CMODE_NATURAL',
     'bright cinema': 'CMODE_BRIGHT', 'Bright Cinema': 'CMODE_BRIGHT',
     'dynamic': 'CMODE_DYNAMIC', 'Dynamic': 'CMODE_DYNAMIC',
-    '3ddynamic': 'CMODE_3DDYNAMIC', '3D Dynamic': 'CMODE_3DDYNAMIC',
-    '3dcinema': 'CMODE_3DCINEMA', '3D Cinema': 'CMODE_3DCINEMA',
-    'auto': 'CMODE_AUTO', 'Auto': 'CMODE_AUTO',
-    '3dthx': 'CMODE_3DTHX', '3D THX': 'CMODE_3DTHX',
-    'bwcinema': 'CMODE_BWCINEMA', 'B&W Cinema': 'CMODE_BWCINEMA',
-    'adobe rgb': 'CMODE_ARGB', 'Adobe RGB': 'CMODE_ARGB',
-    'digital cinema': 'CMODE_DCINEMA', 'Digital Cinema': 'CMODE_DCINEMA',
-    'thx': 'CMODE_THX', 'THX': 'CMODE_THX',
-    'game': 'CMODE_GAME', 'Game': 'CMODE_GAME',
-    'stage': 'CMODE_STAGE', 'Stage': 'CMODE_STAGE',
-    'autocolor': 'CMODE_AUTOCOLOR', 'AutoColor': 'CMODE_AUTOCOLOR',
-    'xv': 'CMODE_XV', 'x.v. color': 'CMODE_XV',
-    'theatre': 'CMODE_THEATRE', 'Theatre': 'CMODE_THEATRE',
-    'theatre black': 'CMODE_THEATREBLACK',
-    'theatre black 2': 'CMODE_THEATREBLACK2'
+    'game': 'CMODE_GAME', 'Game': 'CMODE_GAME'
 }
 
 
