@@ -61,7 +61,7 @@ EPSON_KEY_COMMANDS = {
     "CMODE_AUTO": [('CMODE', '00')],
     "CMODE_CINEMA": [('CMODE', '15')],
     "CMODE_NATURAL": [('CMODE', '07')],
-    "CMODE_BRIGHT": [('CMODE', '0C')],
+    "CMODE_BRIGHT": [('CMODE', '0D')],
     "CMODE_DYNAMIC": [('CMODE', '06')],
     "CMODE_3DDYNAMIC": [('CMODE', '18')],
     "CMODE_3DCINEMA": [('CMODE', '17')],
@@ -70,7 +70,7 @@ EPSON_KEY_COMMANDS = {
     "CMODE_ARGB": [('CMODE', '21')],
     "CMODE_DCINEMA": [('CMODE', '22')],
     "CMODE_THX": [('CMODE', '13')],
-    "CMODE_GAME": [('CMODE', '0D')],
+    "CMODE_GAME": [('CMODE', 'C0')],
     "CMODE_STAGE": [('CMODE', '16')],
     "CMODE_AUTOCOLOR": [('CMODE', 'C1')],
     "CMODE_XV": [('CMODE', '0B')],
@@ -121,19 +121,19 @@ DEFAULT_SOURCES = {
 }
 
 SOURCE_LIST = {
-    '32': 'HDMI1',
-    '33': 'HDMI2',
-    '36': 'HDMI3',
-    '52': 'LAN'
+    '30': 'HDMI1',
+    'A0': 'HDMI2',
+    'C0': 'HDMI3',
+    '53': 'LAN'
 }
 
 INV_SOURCES = {v: k for k, v in DEFAULT_SOURCES.items()}
 
 CMODE_LIST = {
     '15': 'Cinema',
-    '0C': 'Bright Cinema',
+    '0D': 'Bright Cinema',
     '06': 'Dynamic',
-    '0D': 'Game'
+    'C0': 'Game'
 }
 
 CMODE_LIST_SET = {
