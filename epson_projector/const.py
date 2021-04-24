@@ -90,10 +90,14 @@ EPSON_KEY_COMMANDS = {
 }
 
 TIMEOUT_TIMES = {
-    'PWR ON': 40,
+    'PWR ON': 26,
     'PWR OFF': 10,
     'SOURCE': 5,
-    'ALL': 3
+    'HDMI1': 15,
+    'HDMI2': 15,
+    'HDMI3': 15,
+    'LAN': 15,
+    'ALL': 1
 }
 
 DEFAULT_SOURCES = {
